@@ -139,6 +139,8 @@
     <Content Include="default.aspx" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="student-details.aspx" />
+    <Content Include="students.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -195,8 +197,22 @@
     <Compile Include="departments.aspx.designer.cs">
       <DependentUpon>departments.aspx</DependentUpon>
     </Compile>
+    <Compile Include="student-details.aspx.cs">
+      <DependentUpon>student-details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student-details.aspx.designer.cs">
+      <DependentUpon>student-details.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Student.cs">
       <DependentUpon>ContosoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="students.aspx.cs">
+      <DependentUpon>students.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="students.aspx.designer.cs">
+      <DependentUpon>students.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
