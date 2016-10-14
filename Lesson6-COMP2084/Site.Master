@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Contoso University COMP2084</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <!-- Latest compiled and minified CSS -->
@@ -30,9 +30,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li><a href="hello.aspx">Hello</a></li>
-        <li><a href="tip.aspx"> Tip</a></li>
-        <li><a href="lists.aspx">Lists</a></li>
+          <li><a href="departments.aspx">Departments</a></li>
+        <li><a href="students.aspx">Students</a></li>
       </ul>
       
     </div><!-- /.navbar-collapse -->
